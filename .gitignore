@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# File locali di sistema / editor
+.DS_Store
+.claude/settings.local.json
+.claude/.headroom*
+
+# Dati in ingresso e risultati delle analisi (mai nel repository)
+*.csv
+*.xlsx
+*_analisi/
+output*/
+out/
+
+# Opzioni locali (gruppi, famiglie, valori critici propri dei dati analizzati)
+cercaPattern.opzioni
+*.opzioni
